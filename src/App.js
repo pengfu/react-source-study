@@ -16,6 +16,8 @@ import DiffPage from "./pages/DiffPage";
 // import ClassFunctionComponent from "./pages/ClassFunctionComponent";
 // import UseReducerPage from "./pages/UseReducerPage";
 
+import SimplePage from './pages/SimplePage'
+
 export default function App(props) {
   return (
     <div className="app">
@@ -27,7 +29,8 @@ export default function App(props) {
       {/* <ExamplePage /> */}
       {/* <ContextPage /> */}
 
-      <SetStatePage />
+      {/* <SetStatePage /> */}
+      <SimplePage />
 
       {/* <RefPage /> */}
       {/* <SuspensePage /> */}
